@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="dropdownmeny.css">
+    <link rel="stylesheet" href="dropdownmeny.css" />
     <link rel="stylesheet" href="mystyle.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kontakt</title>
   </head>
   <body>
-    <div class="header">   
-         
+    <div class="header">
       <h2>Kontaktinformation</h2>
-    
-    <div class="dropdown">
-      <button class="dropbtn">Meny</button>
-      <div class="dropdown-content">
-        <a href="kontakt.html">Kontakt</a>
-        <a href="#">Projekt</a>
-        <a href="#">Link 3</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Meny</button>
+        <div class="dropdown-content">
+          <a href="index.html">Startsida</a>
+          <a href="projektsida.html">Projekt</a>
+          <a href="#">Link 3</a>
+        </div>
       </div>
-    </div> 
-  </div> 
-    
+    </div>
+
     <br /><a href="mailto:kristoffer.moldvik@gmail.com">mail</a> <br /><a
       href="tel:+46766331914"
       >Ring mig</a
@@ -33,7 +32,7 @@
       <input type="text" name="E-post" placeholder="E-post" /><br />
       <input type="text" name="telefonnummer" placeholder="Telefonnummer" />
 
-      <select name="mat">
+      <select name="menyVal">
         <option value="Projekt">Projekt</option>
         <option value="Fråga">Fråga</option>
         <option value="Annat">Annat</option>
@@ -51,9 +50,8 @@
       <p>Vill du godkänna detta?</p>
     </form>
     <input type="checkbox" name="mat1" value="kötts" />
-    <label for="kötts">Japp</label>
-    <input type="submit" value="skicka" />
+    <label for="Japp">Japp</label>
+    <input type="submit" id="Japp" value="skicka" />
     <br /><br />
-    <a href="http://127.0.0.1:5500/index.html">Till sida ett</a>
   </body>
 </html>
