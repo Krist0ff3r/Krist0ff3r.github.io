@@ -5,7 +5,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10cm;
+    width: 8cm;
     
 }
 #helloWorld
@@ -19,7 +19,7 @@
 body {
     
      
-    /*background-image: url(images/svartbakgrund.jpg);*/
+    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -37,4 +37,12 @@ body {
     font-size: 20px;
     
   }
- 
+  *{
+    text-align: center;
+  }
+ #gitLogo{
+  width: 1cm;
+ }
+ #linkLogo{
+  width: 1cm;
+ }
