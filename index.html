@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="dropdownmeny.css" />
     <link rel="stylesheet" href="mystyle.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kristoffer Moldvik</title>
-    
   </head>
-  <body background="images\svartbakgrund.jpg"  background-attachment: fixed;
-  background-position: center;  >
-    
-    <p>
-    </p>
-    
+  <body>
+    <div class="header">
+      <h2>Kristoffer Moldvik</h2>
+
+      <div class="dropdown">
+        <button class="dropbtn">Meny</button>
+        <div class="dropdown-content">
+          <a href="kontakt.html">Kontakt</a>
+          <a href="#">Projekt</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    </div>
+
     <img
       src="images\hemsidabild.jpg"
       id="profilBild"
       alt="Bild på Kristoffer Moldvik"
-      
     />
-
-    
+    <p class="centreradText">
+      Hejsan! Mitt namn är Kristoffer Moldvik och för tillfäller så utbildar jag
+      mig till systemutvecklare på Tuc-yrkeshögskola<br />
+      Denna sidan är skapad i html,css och Javascript.
+    </p>
+    <script src="HelloWorld.js"></script>
   </body>
 </html>

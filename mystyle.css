@@ -1,8 +1,6 @@
 #profilBild
-{
-    
-    
-    padding-top: 4cm;
+{   
+    padding-top: 2cm;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -20,8 +18,23 @@
 }
 body {
     
-    
+     
+    /*background-image: url(images/svartbakgrund.jpg);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
   }
+  .centreradText
+  {
+    text-align: center;
+  }
+  .header
+  {
+    padding: 1cm;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+    
+  }
+ 
